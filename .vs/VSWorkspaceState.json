@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\manoeljoaquim",
-    "\\manoeljoaquim\\src"
+    "\\manoeljoaquim\\src",
+    "\\tabelinhapanificadora",
+    "\\tabelinhapanificadora\\src"
   ],
-  "SelectedNode": "\\manoeljoaquim\\src\\Main.java",
+  "SelectedNode": "\\tabelinhapanificadora\\src\\Main.java",
   "PreviewInSolutionExplorer": false
 }
