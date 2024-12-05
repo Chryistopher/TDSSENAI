@@ -35,13 +35,12 @@ public class Main {
         ArrayList Produto = new ArrayList();
         ArrayList<Double> Valor = new ArrayList();
 
-        int finalizar, i, tamanho;
+        int finalizar, i;
         double soma,dinheiro,troco;
 
         soma = 0;
         finalizar = 1;
-        tamanho = 0;
-
+       
         while (finalizar != 0) {
             System.out.println("Digite o Nome do produto");
 
@@ -56,17 +55,17 @@ public class Main {
             finalizar = teclado.nextInt();
 
             tamanho = Produto.size();
-                        
+              
 
         }
 
-        for (i = 0; i < tamanho; i++) {
-            System.out.print(Produto.get(i)+": ");
+        for (i = 0; < produtos.size(); i++) {
+            System.out.print(Produto.get(i) + ": ");
             System.out.print("R$ "+Valor.get(i)+"\n");
         }
 
-        for(i = 0; i < tamanho; i++){
-            soma+=Valor.get(i);
+        for(i = 0; i < produtos.size(); i++){
+            soma += Valor.get(i);
         }
 
         System.out.println("Total: "+soma);
