@@ -23,7 +23,7 @@ public class Main {
 
         //Variáveis
 
-        double numero,paes,troco,total;
+        double numero,paes;
 
 
         //Interação com usuário para definir o número
@@ -33,7 +33,7 @@ public class Main {
         paes = Math.floor(numero/0.18);
 
 
-        //Total de pães arredondado para baiaxo
+        //Total de pães arredondado para baixo
         System.out.println(paes+" pães ");
 
         }
